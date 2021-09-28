@@ -1,0 +1,147 @@
+body {
+    font-size: .85em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 85%;
+    background-color: #F6F6EF;
+    margin: auto;
+    height: 100%;
+}
+
+#logo {
+    border: 1px solid white;
+    padding: 3px 4px 0px 4px;
+    color: #ffffff !important;
+    font-style: normal;
+    vertical-align: middle;
+    margin-left: 2px;
+    text-decoration: none;
+}
+
+#header {
+    background-color: #ff6600;
+    height: 24px;
+    line-height: 25px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 1em;
+    margin: 0;
+}
+
+#header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav>ul>li {
+    text-decoration: none;
+    border-right: 1px solid black;
+    padding-right: 3px;
+    display: flex;
+    align-items: center;
+    float: left;
+    height: .7em;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+nav>ul>li:last-child {
+    border-right: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+#login {
+    float: right;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+
+#articles {
+    padding-top: 10px;
+}
+
+#articles>ol {
+    color: #9A9A9A;
+    font-size: .9em;
+    margin: 0;
+    padding-left: 25px;
+} 
+
+#articles h2 {
+    display: inline-block;
+    color: #000000;
+    font-weight: normal;
+    /* vertical-align: middle; */
+    padding: 2px;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+#arrow:hover {
+    text-decoration: none !important;
+}
+
+#articles a {
+    color: #9A9A9A;
+    text-decoration: none;
+}
+
+#articles a:hover {
+    text-decoration: underline;
+}
+
+#articles p {
+    margin: 0 0 10px 20px;
+    font-size: .9em;
+}
+
+#articles span:first-child {
+    border-right: none;
+    padding: 0
+}
+
+#articles span:last-child {
+    border-right: none;
+}
+
+#more {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 45px;
+}
+
+footer {
+    border-top: 2px solid #ff6600;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer>nav {
+    margin-bottom: 10px;
+}
+
+label {
+    color: #9A9A9A;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
